@@ -1,0 +1,113 @@
+﻿body {
+    background-color: #969696;
+    /*border-top: solid 10px #000;*/
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: whitesmoke;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+.clear-fix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+/* Logo
+----------------------------------------------------------*/
+.logo {
+    background: repeat url(/Images/Logo/logo-gradient.png);
+    display: block;
+}
+
+.bar {
+    background: repeat url(/Images/Heqder/header-pattern-150.png);
+    height: 30px;
+}
+
+.djs {
+    list-style-type: none;
+}
+
+#body {
+    background: -webkit-linear-gradient(#ED1C22, #818286); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ED1C22, #818286); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ED1C22, #818286); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ED1C22, #818286); /* Standard syntax */
+    clear: both;
+    padding-bottom: 35px;
+}
+
+.main-content {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.featured + .main-content {
+}
+
+header .content-wrapper {
+    padding-top: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #818286;
+    font-size: .8em;
+    height: 100px;
+}
+
+.djs-wrapper {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+    .djs-wrapper h2 {
+        margin: 0 auto;
+        line-height: 51px;
+        
+    }
